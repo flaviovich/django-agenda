@@ -101,6 +101,7 @@ python manage.py collectstatic
 heroku login
 heroku logs --tail --app agenda-flavio-rios
 pip install gunicorn
+pip install python-dotenv
 ```
 ```text
 # Relaciones
