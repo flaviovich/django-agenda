@@ -98,6 +98,9 @@ pip install djangorestframework
 python manage.py shell
 pip install whitenoise
 python manage.py collectstatic
+heroku login
+heroku logs --tail --app agenda-flavio-rios
+pip install gunicorn
 ```
 ```text
 # Relaciones
