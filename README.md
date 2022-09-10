@@ -96,6 +96,8 @@ python manage.py makemigrations gestion --name migracion_inicial
 python manage.py sqlmigrate gestion 0001
 pip install djangorestframework
 python manage.py shell
+pip install whitenoise
+python manage.py collectstatic
 ```
 ```text
 # Relaciones
